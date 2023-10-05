@@ -15,5 +15,7 @@ protocol GameScoreboardEditorViewModel {
     var score: String { get }
     var isFinished: Bool { get }
     var isPaused: Bool { get }
+    var homePlayers: [PlayerScoreboardMoveEditorViewModel] { get }
+    var awayPlayers: [PlayerScoreboardMoveEditorViewModel] { get }
     func togglePause();
 }

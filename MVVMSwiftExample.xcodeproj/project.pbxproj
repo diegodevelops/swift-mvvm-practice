@@ -29,6 +29,8 @@
 		11E21EAF1DA4106400380E3C /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E21EAE1DA4106400380E3C /* NSTimer+Closure.swift */; };
 		F1B3266D2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3266C2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift */; };
 		F1B3266F2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */; };
+		F1B326712ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */; };
+		F1B326732ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B326722ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		11E21EAE1DA4106400380E3C /* NSTimer+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Closure.swift"; sourceTree = "<group>"; };
 		F1B3266C2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreboardEditorViewModel.swift; sourceTree = "<group>"; };
 		F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreboardEditorViewModelFromGame.swift; sourceTree = "<group>"; };
+		F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreboardMoveEditorViewModel.swift; sourceTree = "<group>"; };
+		F1B326722ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreboardModeEditorViewModelFromPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 			children = (
 				F1B3266C2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift */,
 				F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */,
+				F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */,
+				F1B326722ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -362,6 +368,7 @@
 				F1B3266F2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift in Sources */,
 				11BCCCAF1D97CA2C008DB25F /* HomeViewController.swift in Sources */,
 				118C38781D99B9F10006396D /* UINib+Loader.swift in Sources */,
+				F1B326712ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift in Sources */,
 				11BCCCE81D97CABA008DB25F /* Player.swift in Sources */,
 				11E21EAF1DA4106400380E3C /* NSTimer+Closure.swift in Sources */,
 				11BCCCAD1D97CA2C008DB25F /* AppDelegate.swift in Sources */,
@@ -369,6 +376,7 @@
 				11BCCCE41D97CABA008DB25F /* Game.swift in Sources */,
 				118C387A1D99C1E70006396D /* UIViewController+Subview.swift in Sources */,
 				11615D0D1D97F5C600A007D2 /* GameScoreboardEditorViewController.swift in Sources */,
+				F1B326732ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift in Sources */,
 				F1B3266D2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.MVVMSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -527,7 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.MVVMSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
