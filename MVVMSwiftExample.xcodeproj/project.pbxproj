@@ -27,6 +27,7 @@
 		11BCCCEA1D97CABA008DB25F /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BCCCE11D97CABA008DB25F /* Team.swift */; };
 		11BCCCEB1D97CABA008DB25F /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BCCCE21D97CABA008DB25F /* UIStoryboard+Loader.swift */; };
 		11E21EAF1DA4106400380E3C /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E21EAE1DA4106400380E3C /* NSTimer+Closure.swift */; };
+		F10BDA432AD07DD700BA28A7 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10BDA422AD07DD700BA28A7 /* Dynamic.swift */; };
 		F1B3266D2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3266C2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift */; };
 		F1B3266F2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */; };
 		F1B326712ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */; };
@@ -77,6 +78,7 @@
 		11BCCCE11D97CABA008DB25F /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		11BCCCE21D97CABA008DB25F /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
 		11E21EAE1DA4106400380E3C /* NSTimer+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Closure.swift"; sourceTree = "<group>"; };
+		F10BDA422AD07DD700BA28A7 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		F1B3266C2ACF12EE005E178B /* GameScoreboardEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreboardEditorViewModel.swift; sourceTree = "<group>"; };
 		F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreboardEditorViewModelFromGame.swift; sourceTree = "<group>"; };
 		F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreboardMoveEditorViewModel.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				F1B3266E2ACF1326005E178B /* GameScoreboardEditorViewModelFromGame.swift */,
 				F1B326702ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift */,
 				F1B326722ACF2CEB005E178B /* PlayerScoreboardModeEditorViewModelFromPlayer.swift */,
+				F10BDA422AD07DD700BA28A7 /* Dynamic.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				F1B326712ACF2C79005E178B /* PlayerScoreboardMoveEditorViewModel.swift in Sources */,
 				11BCCCE81D97CABA008DB25F /* Player.swift in Sources */,
 				11E21EAF1DA4106400380E3C /* NSTimer+Closure.swift in Sources */,
+				F10BDA432AD07DD700BA28A7 /* Dynamic.swift in Sources */,
 				11BCCCAD1D97CA2C008DB25F /* AppDelegate.swift in Sources */,
 				11BCCCEA1D97CABA008DB25F /* Team.swift in Sources */,
 				11BCCCE41D97CABA008DB25F /* Game.swift in Sources */,

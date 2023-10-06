@@ -100,11 +100,11 @@ class PlayerScoreboardMoveEditorView: UIView {
         
         self.name.text = viewModel.playerName
         
-        self.onePointCountLabel.text = viewModel.onePointMoveCount
-        self.twoPointCountLabel.text = viewModel.twoPointMoveCount
-        self.assistCountLabel.text = viewModel.assistMoveCount
-        self.reboundCountLabel.text = viewModel.reboundMoveCount
-        self.foulCountLabel.text = viewModel.foulMoveCount
+        viewModel.onePointMoveCount.bindAndFire { [unowned self] in self.onePointCountLabel.text = $0 }
+        viewModel.twoPointMoveCount.bindAndFire { [unowned self] in self.twoPointCountLabel.text = $0 }
+        viewModel.assistMoveCount.bindAndFire { [unowned self] in self.assistCountLabel.text = $0 }
+        viewModel.reboundMoveCount.bindAndFire { [unowned self] in self.reboundCountLabel.text = $0 }
+        viewModel.foulMoveCount.bindAndFire { [unowned self] in self.foulCountLabel.text = $0 }
     }
     
 }
