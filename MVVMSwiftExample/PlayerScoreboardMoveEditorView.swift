@@ -49,23 +49,23 @@ class PlayerScoreboardMoveEditorView: UIView {
     // MARK: Button Action
     
     @IBAction func onePointAction(_ sender: Any) {
+        viewModel?.onePointMove()
+    }
 
-    }
-    
     @IBAction func twoPointsAction(_ sender: Any) {
-    
+        viewModel?.twoPointsMove()
     }
-    
+
     @IBAction func assistAction(_ sender: Any) {
-        
+        viewModel?.assistMove()
     }
-    
+
     @IBAction func reboundAction(_ sender: Any) {
-    
+        viewModel?.reboundMove()
     }
-    
+
     @IBAction func foulAction(_ sender: Any) {
-    
+        viewModel?.foulMove()
     }
     
     // MARK: Private
